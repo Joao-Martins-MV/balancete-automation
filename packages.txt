@@ -1,0 +1,5 @@
+tesseract-ocr
+tesseract-ocr-por
+ghostscript
+poppler-utils
+libgl1

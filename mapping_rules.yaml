@@ -1,0 +1,10 @@
+# Exemplo de regras de normalização
+column_synonyms:
+  Conta: ["descricao", "descrição", "historico", "histórico", "conta", "nome da conta"]
+  Codigo: ["código", "cod", "id", "codigo"]
+  Valor: ["valor", "saldo", "saldo final", "total"]
+account_source_column: "Conta"
+account_dictionary:
+  Caixa: ["Caixa", "Caixa Geral", "Disponibilidades"]
+  Banco: ["Bancos", "Banco do Brasil", "Itaú", "Bradesco", "Santander"]
+  Clientes: ["Contas a Receber", "Duplicatas a Receber", "Clientes PJ", "Clientes PF"]
